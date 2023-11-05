@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
 	int n,A,SP;
+        bool res;
 	cin>>n;
 	vector<int> V(n);
 	vector<int> arr;
@@ -45,14 +46,19 @@ int main()
     		if(arr[i]==V[i]+V[j+1])
     		{
     			SP=arr[i];
+			res=true;
 			}
 		}
 		
 	}
+	if(res)
+	{
 	auto it = find(V.begin(),V.end(),SP);
 		int index;
 		cout<<"The superprime number is "<<SP;
 		index=distance(V.begin(),it);
 		cout<<"\nat Index "<<index;
+	}
+	else
 	return 0;
 }
