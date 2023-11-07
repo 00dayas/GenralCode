@@ -1,6 +1,6 @@
 # GenralCode
 Just_Generic_code
-######################################################################################################################################################################################################################################################################################################################################
+###################################################################################################################################################################################################################
 -- SuperPrime.
 {
 The purpose of the program is to find a "superprime" number from an array of integers. A "superprime" is defined as a prime number that is equal to the sum of two other numbers from the same array. Here's a breakdown of how the program works:
@@ -20,11 +20,11 @@ For each prime number in arr, it checks if there exist two other numbers from th
 If such a pair of numbers is found, it sets SP (superprime) to the prime number.
 It then uses the find and distance functions to find the index of the superprime number SP in the original vector V.
 
-Finally, it prints the superprime number and its index in the original array.
+Finally, it prints the superprime number and its index in the original array. 
 
 The program essentially identifies prime numbers in the input array and then looks for a superprime number that satisfies the given condition. The prime numbers are stored in the arr vector, and once the superprime number is found, its value and index are printed.
 }
-######################################################################################################################################################################################################################################################################################################################################
+###################################################################################################################################################################################################################
 
 --String Reversal and Integer Addition.
 {
