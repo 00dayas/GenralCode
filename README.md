@@ -1,7 +1,7 @@
 # GenralCode
 Just_Generic_code
-######################################################################################################################################################################################################################################################################################################################################################################################################################################
--- SuperPrime
+######################################################################################################################################################################################################################################################################################################################################
+-- SuperPrime.
 {
 The purpose of the program is to find a "superprime" number from an array of integers. A "superprime" is defined as a prime number that is equal to the sum of two other numbers from the same array. Here's a breakdown of how the program works:
 
@@ -24,4 +24,18 @@ Finally, it prints the superprime number and its index in the original array.
 
 The program essentially identifies prime numbers in the input array and then looks for a superprime number that satisfies the given condition. The prime numbers are stored in the arr vector, and once the superprime number is found, its value and index are printed.
 }
-######################################################################################################################################################################################################################################################################################################################################################################################################################################
+######################################################################################################################################################################################################################################################################################################################################
+
+--String Reversal and Integer Addition.
+{
+In this C++ program, the user is prompted to input two strings. The program then reverses each of these strings, converts them into integers, adds the integers together, and converts the result back into a string. Finally, it reverses the resulting string and displays it as the output. Essentially, the code performs the following steps:
+
+Input two strings.
+Reverse both strings.
+Convert the reversed strings to integers.
+Add the integers.
+Convert the result of the addition back into a string.
+Reverse the final string.
+Display the reversed string as output.
+}
+######################################################################################################################################################################################################################################################################################################################################
